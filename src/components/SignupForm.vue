@@ -66,6 +66,10 @@ export default {
     handleSubmit() {
         //validate password
         this.passwordError = this.password.length > 5 ? '' : 'passsword must be over 6 chars'
+
+        if(!this.passwordError) {
+          
+        }
     }
   },
 }
